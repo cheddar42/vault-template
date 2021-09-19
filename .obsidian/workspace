@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8d855291026033d8",
+        "id": "62b0aa8aa5052ccc",
         "type": "leaf",
         "state": {
           "type": "image",
@@ -97,14 +97,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8d855291026033d8",
+  "active": "62b0aa8aa5052ccc",
   "lastOpenFiles": [
     "_attachments/productivity/eisenhower-matrix.png",
     "_templates/1-1.md",
-    "_templates/weekly-tasks.md",
-    "_templates/reference.md",
-    "_templates/project.md",
     "_templates/meeting.md",
+    "_templates/project.md",
+    "_templates/reference.md",
+    "_templates/weekly-tasks.md",
     "reference/Markdown Cheetsheet & Examples.md",
     "tasks/backlog.md",
     "tasks/reminders.md",

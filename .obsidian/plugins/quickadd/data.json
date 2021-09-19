@@ -8,11 +8,11 @@
       "choices": [
         {
           "id": "730c2dfb-0c80-484a-9990-d6b52a8b0a20",
-          "name": "Add to _scratch",
+          "name": "Add to scratch",
           "type": "Capture",
           "command": false,
           "appendLink": false,
-          "captureTo": "_scratch.md",
+          "captureTo": "scratch.md",
           "captureToActiveFile": false,
           "createFileIfItDoesntExist": {
             "enabled": false,
