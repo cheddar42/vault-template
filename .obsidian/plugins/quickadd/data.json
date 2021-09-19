@@ -1,0 +1,188 @@
+{
+  "choices": [
+    {
+      "id": "fb4780ae-1c05-4be8-8551-e340e9f77679",
+      "name": "QuickAdd",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "730c2dfb-0c80-484a-9990-d6b52a8b0a20",
+          "name": "Add to _scratch",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "_scratch.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "---\n\n{{VALUE}}\n"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": true,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "53f248b8-a8a4-4230-ac98-8f0dd8530407",
+          "name": "Create weekly",
+          "type": "Template",
+          "command": false,
+          "templatePath": "_templates/weekly-tasks.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "week-{{DATE:YYMMDD}}.md"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "tasks"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        },
+        {
+          "id": "24044967-e9dd-4dec-9461-c39a04acf39f",
+          "name": "Create project",
+          "type": "Template",
+          "command": false,
+          "templatePath": "_templates/project.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}.md"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "projects"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        },
+        {
+          "id": "5f6f9378-4dda-4aeb-b7a4-a7b083129fb7",
+          "name": "Create reference",
+          "type": "Template",
+          "command": false,
+          "templatePath": "_templates/reference.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}.md"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "reference"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        },
+        {
+          "id": "97c4e650-b88e-47fd-ae77-9ae389f89c4a",
+          "name": "Create meeting",
+          "type": "Template",
+          "command": false,
+          "templatePath": "_templates/meeting.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYMMDD}}-{{VALUE}}.md"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "reference/meetings"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        },
+        {
+          "id": "8d0392d6-6a94-46a2-aaa9-484c51ea396f",
+          "name": "Create 1-1",
+          "type": "Template",
+          "command": false,
+          "templatePath": "_templates/1-1.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}.md"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "talkto"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        }
+      ],
+      "collapsed": false
+    }
+  ],
+  "macros": []
+}

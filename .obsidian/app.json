@@ -1,0 +1,30 @@
+{
+  "useTab": false,
+  "foldHeading": true,
+  "attachmentFolderPath": "_attachments",
+  "promptDelete": false,
+  "mobileToolbarCommands": [
+    "quickadd:choice:fb4780ae-1c05-4be8-8551-e340e9f77679",
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:toggle-italics",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:toggle-keyboard",
+    "editor:configure-toolbar"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "reminders",
+      "path": "tasks/reminders.md"
+    },
+    {
+      "type": "file",
+      "title": "scheduled",
+      "path": "tasks/scheduled.md"
+    },
+    {
+      "type": "file",
+      "title": "backlog",
+      "path": "tasks/backlog.md"
+    },
+    {
+      "type": "file",
+      "title": "week-210913",
+      "path": "tasks/week-210913.md"
+    },
+    {
+      "type": "file",
+      "title": "week-210920",
+      "path": "tasks/week-210920.md"
+    },
+    {
+      "type": "file",
+      "title": "_scratch",
+      "path": "scratch.md"
+    }
+  ]
+}

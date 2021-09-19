@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "9e16f54313c13f1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d855291026033d8",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "_attachments/productivity/eisenhower-matrix.png"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e4793ce24effaff",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8eb3532e9ce5068",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98e04d7110c5b8bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0c886e710cf48541",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "_scratch",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7f2ec1cbf035aeb5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8d25102e9b33c29d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ff83dbc1d738027",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acfc41f7c16b77d3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fb1e1a07f50e6492",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_attachments/productivity/eisenhower-matrix.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8d855291026033d8",
+  "lastOpenFiles": [
+    "_attachments/productivity/eisenhower-matrix.png",
+    "_templates/1-1.md",
+    "_templates/weekly-tasks.md",
+    "_templates/reference.md",
+    "_templates/project.md",
+    "_templates/meeting.md",
+    "reference/Markdown Cheetsheet & Examples.md",
+    "tasks/backlog.md",
+    "tasks/reminders.md",
+    "tasks/scheduled.md"
+  ]
+}

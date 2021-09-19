@@ -1,0 +1,8 @@
+{
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "obsidian-nord"
+  ],
+  "translucency": false,
+  "cssTheme": "theme-obsidian-gruvbox-custom"
+}
